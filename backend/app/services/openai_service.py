@@ -1,8 +1,9 @@
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 from openai import OpenAI
 
-load_dotenv()
+dotenv_path = find_dotenv()
+load_dotenv(dotenv_path, override=True)
 
 class OpenAIService:
     def __init__(self):
