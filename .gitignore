@@ -1,0 +1,9 @@
+# Environment variables
+.env
+
+# Frontend specific
+/frontend/node_modules/*
+
+# Backend specific
+/backend/app/__pycache__/*
+/backend/venv/*
