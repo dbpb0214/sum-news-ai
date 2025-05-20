@@ -5,5 +5,5 @@
 /frontend/node_modules/*
 
 # Backend specific
-/backend/app/__pycache__/*
+**/__pycache__/
 /backend/venv/*
